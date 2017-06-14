@@ -1,0 +1,57 @@
+header{
+  height: 100px;
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+header #logo{
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+header nav{
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul{
+  width: 410px;
+  text-align: center;
+  line-height: 100px;
+  display: flex;
+  justify-content:space-between;
+  position: absolute;
+}
+
+header nav li{
+  display: inline;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  color: #3D58A6;
+  font-size: 24px;
+}
+
+header nav li:hover{
+  opacity: 0.5;
+}
+
+#social_icons_bar{
+    width: 305px;
+    height: 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    float: right;
+}
+#social_icons_bar img{
+    height: 30px;
+}
+
+.line{
+  width: 1px;
+  height: 25px;
+  background-color: #363E97;
+}
