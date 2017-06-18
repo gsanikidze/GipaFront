@@ -98,3 +98,64 @@ header nav li:hover{
 #news img {
  width: 100%
 }
+#featured{
+  background-color: #E6E6E6;
+}
+#featured h1:first-child{
+  color: black;
+}
+#featured img{
+    width: 15%;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+#featured div div:nth-child(3) img{
+  margin-left: 50px;
+  margin-right: 30px;
+}
+.featured_div h1{
+  color: #3D58A6 !important;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  margin: 20px;
+  height: 40px;
+  width: 100%;
+}
+.featured_div p{
+  color: #333333 ;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  float: right;
+  width: 60%;
+  padding-right: 20px;
+}
+.featured_div a{
+  color: #3D58A6;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+footer{
+  height: 60px;
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+footer p{
+  font-size: 14px;
+  color: #333333;
+  line-height: 60px;
+  font-family: 'Roboto', sans-serif;
+  display: inline;
+}
+footer p:nth-child(2){
+  float: right;
+}
+footer a{
+  text-decoration: none;
+  color: #3D58A6;
+}
