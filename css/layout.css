@@ -24,7 +24,7 @@
 }
 .news_article{
   width: 23.5%;
-  height: 270px;
+  /*height: 270px;*/
   background-color: #E6E6E6;
   overflow: hidden;
 }
@@ -33,9 +33,11 @@
   font-size: 22px;
   font-family: 'Roboto', sans-serif;
   padding: 15px;
+  text-transform: uppercase;
 }
 .featured_div{
   background-color: #F2F2F2;
-  height: 37vh;
   overflow: hidden;
+  width: 49%;
+  margin: 84px 0 90px 0;
 }
