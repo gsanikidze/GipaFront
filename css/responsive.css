@@ -1,7 +1,7 @@
 #burger{
   display: none;
 }
-@media only screen and (max-width: 1170px){
+@media(max-width: 1170px){
   header nav{
     display: none;
   }
@@ -9,7 +9,7 @@
     display: inline;
   }
 }
-@media only screen and(max-width: 790px){
+@media(max-width: 790px){
 .remove{
     display: none;
     position: absolute;
@@ -37,8 +37,42 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
-  body{
-  background: red;
+@media (max-width: 600px) {
+  #news .news_article:nth-child(1){
+    display: none;
+  }
+  .news_article{
+    width: 32%;
+  }
+.news_article h1{
+  font-size: 15px;
+}
+}
+@media (max-width: 570px) {
+  .remove_mobile, .line{
+    display: none;
+  }
+  #social_icons_bar{
+    width: auto;
+  }
+  #search_icon{
+    margin-right: 20px;
+  }
+  #news div:first-child{
+  display: inline;
+ }
+ .news_article{
+   margin: 0 auto;
+   width: 90%;
+   margin-top: 20px;
+ }
+ .news_article:nth-child(2){
+   margin-top: 100px;
+ }
+ .news_article:nth-child(5){
+   margin-bottom: 50px;
+ }
+ #news h1:first-child{
+   margin-left: 5%;
  }
 }
