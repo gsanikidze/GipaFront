@@ -184,7 +184,7 @@ footer a{
 }
 .news_article:hover .move-up {
     transform: translate(0, -180px);
-    transition-duration: 0.5s; 
+    transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
     background-color: rgba(230,230,230,0.8);
     height: 100%;
@@ -201,5 +201,4 @@ padding-left: 20px;
 color: #3D58A6;
 font-size: 14px;
 font-family: 'Roboto', sans-serif;
-
 }

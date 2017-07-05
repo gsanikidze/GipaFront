@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <title>WEB</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/desktop_responsive.css">
-    <link rel="stylesheet" href="css\layout.css">
+    <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/responsive.css">
   </head>
   <body>
     <header>
@@ -28,6 +28,7 @@
         <img src="images/SOC_youtube.svg" alt="youtube">
         <div class="line"></div>
         <img src="images/search.svg" alt="search">
+        <img src="images/burger.svg" alt="search" id="burger">
       </div>
     </header>
     <section id="hero">
@@ -50,7 +51,7 @@
           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/k8v_l5iGJZM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           </div>
           <div class="video_player">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/seqy9kd_eGo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            <iframe width="100%" height="100%" class="remove" src="https://www.youtube.com/embed/seqy9kd_eGo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
     </section>
@@ -66,7 +67,7 @@
             </h1>
             <a style="display: none;">read more</a>
           </div>
-          <div class="news_article">
+          <div class="news_article remove">
             <img src="images/news2.gif" alt="article cover">
             <h1 class="news_title move-up">
               Typography Lab
@@ -90,7 +91,7 @@
         </div>
     </section>
     <section id="featured">
-        <div>
+        <div  class="clear_flex" >
           <h1 class="section_headline">
             <span style="text-transform: uppercase">videos | </span> view all videos
           </h1>
