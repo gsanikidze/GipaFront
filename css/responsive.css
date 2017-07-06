@@ -13,6 +13,10 @@
   }
 }
 @media(max-width: 790px){
+  .news_article:hover .move-up{
+    height: 0%;
+    transform: translate(0, 0);
+  }
 .remove{
     display: none;
     position: absolute;
