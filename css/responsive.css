@@ -17,6 +17,9 @@
     height: 0%;
     transform: translate(0, 0);
   }
+  .remove_btn{
+    opacity: 0;
+  }
 .remove{
     display: none;
     position: absolute;
@@ -115,6 +118,32 @@
     margin-top: 30px;
   }
 }
+@media (max-width: 570px) {
+ .featured_div h1{
+    width: 70%;
+  }
+}
+@media (max-width: 950px) {
+   .featured_div{
+     position: relative;
+     text-align:center;
+   }
+   .featured_div img{
+     margin: 0 auto;
+     display: inline-block;
+     vertical-align: middle;
+   }
+   .featured_div h1, .featured_div p{
+     text-align: left;
+     float: left;
+     width: 90%;
+   }
+   .featured_div p{
+     width: 90%;
+     padding-left: 5%;
+     padding-right: 0px;
+   }
+  }
 
 
 
